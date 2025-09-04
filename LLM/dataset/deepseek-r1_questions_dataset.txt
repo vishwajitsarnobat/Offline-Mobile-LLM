@@ -38570,3 +38570,1084 @@ I need to ensure each question covers a different aspect: personal safety, wound
 10. Is anyone receiving a signal strong enough to call 911 from here? Can someone else get help faster than trying myself?
 11. How much time do we have before medical professionals could arrive, and what's the urgency level given how serious this might be?
 12. Should I try to capture or tranquilize the bird now for safety reasons, even though it might require specific equipment or training?
+
+==================================================
+
+### SITUATION 930 ###
+Aquarium maintainer shocked by faulty filter.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, so the user wants me to generate a list of questions that someone might ask in an urgent situation - specifically when an aquarium maintainer is shocked by a faulty filter. Let me start by understanding the scenario properly.
+
+First, I need to put myself in the shoes of an aquarium maintainer. Their job involves regular maintenance, monitoring water quality, and dealing with equipment issues. If they're shocked by a faulty filter, the immediate impact would be that the fish are at risk because filters maintain oxygen levels and remove waste. The person might panic if it's unexpected.
+
+The user mentioned covering several aspects: immediate reactions, situational awareness, planning, resource assessment, communication, and long-term concerns. Let me break down each part to ensure all bases are covered.
+
+Immediate Reactions: Questions about the fish's condition, like how stressed they are or their behavior. Also, checking if there's a power outage since filters often need electricity. Sensory questions might include water color changes or signs of distress in the fish.
+
+Situational Awareness: Need info on what caused the filter failure, duration, and current danger levels to the fish. Oxygen saturation is crucial because without it, fish can suffocate quickly. Checking if other tanks are affected could be important if they're connected systems-wise.
+
+Planning & Action: What steps to take immediately? Stopping the filter from running might help prevent more damage. Moving fish or stopping aeration - but that's risky. Possible solutions like using pumps for water exchange, temporary filters, or manual cleaning.
+
+Resource Assessment: What tools are available in their emergency kit? Can they perform repairs themselves? Do colleagues have necessary skills to assist?
+
+Communication: Who else is there? Neighbors might help if the tank is visible. Calling professionals could be needed depending on severity. Informing the boss about the situation and needing parts or time off.
+
+Long-term Concerns: How will this issue resolve in the long term? Can they fix it themselves, or does it need a technician? Will insurance cover damages? What safety measures can they implement to prevent future failures?
+
+Wait, let me check if I missed any angles. The user emphasized reflecting someone's perspective directly involved. So questions should sound like a real person on-site would ask. Also, the critical instructions mention no preamble and just 15-20 questions. Need to ensure each question is distinct and necessary.
+
+Possible unspoken needs: The user might be looking for comprehensive coverage without overlap. They want actionable steps that an aquarium maintainer can realistically consider in a crisis. Maybe they're preparing training material or emergency drills, so the questions should guide someone through prioritizing tasks.
+
+I need to make sure each question is numbered and addresses different aspects of the situation. Let's go through them again:
+
+1. Fish stress - immediate observation.
+2. Power status - common cause for filter failure.
+3. Duration - how long has this been going?
+4. Oxygen saturation - critical factor in survival.
+5. Cause - understanding why it failed helps prevent recurrence.
+6. Other tanks affected? - Scope of the problem if there are multiple setups.
+7. Immediate action needed - stopping the filter to avoid further issues, but caution is required.
+
+Then planning:
+
+8. Can they move fish without harm?
+9. Should they stop aeration if levels are dropping?
+10. What temporary solutions exist (manual filtration or water exchange)?
+1leshoot: Replacing the filter with what available parts? Do they have spare components?
+
+Resource assessment:
+
+12. Emergency kit contents - essential for quick response.
+13. Repair capabilities - can they fix it themselves, which is a common skill check in emergencies.
+
+Communication and help-seeking:
+
+14. Who else is there to assist?
+15. Can neighbors or authorities help by reporting the issue? (If visible)
+16. Calling professionals if needed.
+
+Long-term concerns:
+
+17. Fixing without tech - possible solutions available.
+18. Informing boss about severity, parts needed, and time required off.
+19. Repair vs replacement decision-making with budget constraints.
+20. What safety measures can be added to prevent recurrence?
+
+Hmm, does that cover all? Let me see if any duplicates exist or if some questions are too vague. For example, question 5 asks for the cause - maybe split into specific types (power issues, mechanical failure) but keeping it as one covers possible causes broadly.
+
+Also, ensuring no technical jargon unless necessary. The user wants relatable questions from someone on-site. Maybe check that each question is clear and direct, like what tools they have or who can help.
+
+Wait, the example included questions about visibility to rescuers (in a forest scenario). But here, it's an aquarium maintainer. Their audience might be different - perhaps colleagues in the same facility? Or maybe nearby neighbors if the tank is visible outside?
+
+Should I consider the environment? If this is a public aquarium vs a home setup with neighbors passing by? The situation doesn't specify, so keeping it general.
+
+Another point: Are there any regulatory issues or health concerns from fish dying due to faulty equipment? But that might be beyond immediate worries. Focus on practical steps first.
+
+I think I've covered the necessary aspects now. Let me compile them into a numbered list with clear and concise questions reflecting an aquarium maintainer's urgent perspective.
+</think>
+1. What signs are there of stress or distress in the fish right now?
+2. Did the power just go out, or is this related to something else?
+3. How long has it been since the filter stopped working properly?
+4. Is the oxygen saturation level dropping dangerously low?
+5. What caused the filter to fail completely—electrical issues, blockage, or mechanical breakdown?
+6. Are there other tanks nearby that might be affected by this situation?
+7. Okay, what's the absolute first thing I need to do right now for the fish?
+8. Do I have a backup pump or any way to manually circulate water temporarily?
+9. Can I use anything in my emergency kit to create a temporary filter solution?
+10. Is anyone else present who might be able to help assess the situation or provide support?
+
+==================================================
+
+### SITUATION 931 ###
+A paraglider tangles lines in turbulence, spiraling down.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, this is an interesting query about generating survival questions for a paraglider emergency scenario. The user wants me to simulate the thought process of someone experiencing or witnessing such an incident while creating a numbered list of 15-20 urgent questions they might ask.
+
+First, let's consider what makes this situation unique - it involves mid-air panic and potential collision with terrain rather than ground-based emergencies like hiking injuries. The questions should reflect that vertical descent aspect where time is critical but altitude control adds complexity beyond standard survival concerns.
+
+The core elements to address would be: immediate physical sensations during the freefall, environmental awareness about altitude/time/speed constraints, communication needs for mid-air rescue coordination, and practical problem-solving questions specific to paragliding equipment malfunctions. Unlike hiking examples where gear is terrestrial-focused, these should center on suspension harnesses, canopy control techniques, and emergency protocols unique to aircraft.
+
+I'll need to balance technical specifics with raw emotional reactions - some questions can be purely instinctual ("Am I going to die?") while others require specialized knowledge like "What's the proper procedure for a stall recovery?" This dual-layer approach makes it more authentic. The list should avoid generic aviation questions and focus exclusively on paragliding dynamics since that was the specified scenario.
+
+Potential pitfalls to watch for include: overcomplicating simple questions with jargon, neglecting environmental factors like weather or terrain features, or failing to capture the disorientation of rapid descent. Each question needs enough specificity to feel relevant but not so niche they become unhelpful.
+</think>
+1. Am I going to die? What's happening right now?
+2. How fast are we falling? Is there any time left before impact?
+3. Where is the nearest safe landing spot, and how high are we?
+4. Can I get out of my harness safely or should I brace myself?
+5. Should I try pulling the brake to slow down or keep it neutral for descent control?
+6. What do I have in my emergency pack? Do I need to use any specific gear now?
+7. Is anyone else injured during this spin? How can we tell?
+8. Can someone call emergency services with a satellite phone if available?
+9. Are there other paragliders around or visible from above that could assist?
+10. What's the proper way to attempt recovery from this spiral/torque roll situation?
+11. Is our canopy still intact, and can we get it under control somehow?
+12. Do I know how to perform a forced landing with a spinning paraglider?
+13. Can someone activate the reserve parachute if needed? How do they access it?
+14. What should we do once the ground is near – brace or try to land in a controlled way?
+15. Are there any obstacles below (trees, cliffs) that could make landing impossible?
+16. Should I yell for help during this descent? Is anyone nearby able to assist?
+17. How cold will it be when we hit the ground? Will hypothermia be an immediate risk?
+18. What's our altitude above water/road if we need to use that as a reference point?
+19. Can someone check how much reserve parachute deployment line is left before pulling it?
+20. Is there any chance this could stabilize on its own without intervention?
+
+==================================================
+
+### SITUATION 932 ###
+Ice climber's pick breaks, falling into icy chute.
+
+### GENERATED QUESTIONS ###
+<think>
+I need to understand this query first. The user is asking me to generate a list of questions someone might urgently think or ask in an ice climbing emergency where their pick breaks and falls into a deep icy chute. This sounds like a high-risk scenario involving potential falls, injuries, or getting trapped.
+
+As a data generation assistant for training large language models, my role is clear: provide only raw numbered lists without any extra text. The user specified exactly 15 to 20 questions, so I have to aim for that range while covering all aspects of the emergency situation.
+
+The critical instructions emphasize not adding preamble or commentary, just the list itself. Also, from the example, questions should reflect real-time thinking—immediate reactions first, then situational awareness, planning, etc.—to make it authentic and diverse.
+
+Breaking down the scenario: An ice climber's pick (an essential tool for ascending) breaks off in a chute that could be several hundred feet deep. This means life-threatening risks like falling, hypothermia, or drowning aren't immediate unless specified by the user.
+
+Now, I'll brainstorm questions based on different phases of emergency response:
+- Immediate reactions: What happened? Is anyone hurt?
+- Situational awareness: Assess the environment—how far down is it? What's the weather like?
+- Planning & action: How to retrieve the pick or get out safely.
+- Resource assessment: What tools, gear, or skills are available on hand or from teammates.
+
+I have to ensure diversity in questions. Covering everything from panic to long-term survival will make the list comprehensive and realistic for training a language model.
+
+The user might be creating test data or improving AI responses for emergencies. Deeper unspoken needs could include safety education—perhaps they're worried about real-world ice climbing risks, like equipment failure leading to accidents in remote areas. This tool helps simulate how people think under pressure, which is crucial for better emergency preparedness and training.
+
+I'll generate a list with 15 questions:
+- Start with panic-focused ones.
+- Include information-seeking and resource-based questions.
+- End with long-term concerns about rescue or survival.
+
+Finally, I need to output only the numbered list. My response should be concise and directly address the task without any fluff.
+</think>
+1. What's happening? Did my pick break completely?
+2. Where did it fall exactly? How deep is this chute going down from here?
+3. Am I attached by the rope? Is anyone belayin' me or connected to this section of ice?
+4. Can we safely remove tension on the ropes now that a piece of gear has fallen away without my pick being there for climbing back up?
+5. What do I have in my pockets besides extra slings and nuts – maybe carabiners, ice screws, or emergency belay devices?
+6. Does anyone here know how to ascend an icy chute with just hands and feet? Can we help each other climb out without picks?
+7. How cold is it down there already? Is hypothermia a risk if I'm stuck below for any time before rescue arrives?
+8. Are the ropes clear or snagged anywhere between me/here and the top anchor points above this chute section?
+9. Should someone rappel down after my pick to try retrieve it, or should we just figure out how not needing that pick anymore? What's safer?
+10. Is anyone receiving radio signals from here? Did any nearby guides or rescue teams know our route beforehand and can they be contacted urgently via satellite phone if available?
+11. How long will the team take to rappel down (assuming no one is already below) – what's their descent rate with ice conditions being this steep?
+12. What are we wearing underneath? Can we potentially use extra layers, base pieces of clothing like parkas or wool sweaters as improvised climbing tools if stuck?
+13. Do any of us have additional fixed-blade picks that could be passed down via rope systems to reach the broken one above/below depending on location and attachment points.
+14. Are there alternative handholds or footholds available nearby – natural cracks, ledges, or snow bridges below? How can we use them safely without a pick?
+15. Is my ice climbing partner trained in basic rescue techniques down here? What if they need assistance before I get down to help?
+16. Did any of us have redundant ascenders clipped for emergencies like this – mechanical devices designed specifically to catch rope even when hands are tied up or gear is missing.
+17. How far apart are the anchor points above and below where we can safely change belay stations without my pick being essential at that moment?
+
+==================================================
+
+### SITUATION 933 ###
+Cave diver's light fails, disoriented in darkness.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me tackle this query about a cave diver whose light has failed and they're feeling disoriented in the dark. First, I need to understand what exactly is happening here. The user wants me to generate questions someone in that situation might urgently ask or think of. They mentioned generating 15-20 numbered questions without any preamble.
+
+Looking at the example provided for a hiker with an ankle injury, it covers immediate reactions like assessing the injury and checking communication devices, situational awareness about time and visibility, planning actions such as splints and signaling methods, resource assessment from gear to rescue plans, and long-term concerns. I should mirror that structure but tailor it specifically for a cave diver's situation.
+
+The cave diver scenario involves darkness, disorientation, potential drowning risks since caves can have underground rivers, limited air supply if they're on a tank, the need to navigate carefully without light, and possible injuries from falls or obstacles. The questions should address each of these aspects immediately.
+
+I'll start with immediate reactions: What's happening right now? Is there water nearby? How much time do they have based on their air?
+
+Then situational awareness: Where are they located exactly? How far is the exit point? Have others gone this way recently? Are there any other divers around?
+
+Planning and action: What emergency signals can they use without light? Which direction to head towards safety? Can they send a distress signal if help is nearby?
+
+Resource assessment: What equipment do they have in their dive gear bag (excluding the failed light)? Do they know basic cave diving rescue protocols? Is there any way to repair or extend their air supply?
+
+Communication: They need to contact other divers or authorities. How can they alert others without a working light? Can anyone signal for help if possible?
+
+Long-term concerns: What's the next step after reaching safety? Will their team respond immediately? Are there ongoing risks like flooding, collapses, or hazards beyond?
+
+I should also consider psychological aspects—questions about fear management and maintaining composure would be important. Maybe they're worried about panic among other divers.
+
+Let me check if I'm covering all categories: immediate reactions (sensory confusion), situation awareness (location, time constraints), planning/action (navigation without light, signaling methods), resource assessment (available gear like tanks or devices), communication (alerting others via devices or hand signals), long-term concerns (what's next after rescue).
+
+Also ensuring the questions are urgent and practical. For example: "What can I do to conserve air?" "Can we use another diver's light if available?" 
+
+I need exactly 15-20 questions, so I'll aim for that range without any extra commentary.
+</think>
+1. What happened? Is my light just dead or did something snap?
+2. Where is the nearest exit point according to my map and compass?
+3. How much air do I have left on my tank?
+4. Can anyone else's light work, or should we try to conserve each other's power?
+5. Do any of us have a backup light (primary/secondary)?
+6. Is there still water above me? Am I safe from drowning?
+7. What is the current battery level on our dive computers and torches?
+8. Should we ascend immediately or try to find a better way out by following air bubbles?
+9. How can I signal for help without a light? (e.g., tapping, blowing whistle?)
+10. Is anyone receiving signals from above ground if help is nearby?
+11. What's the furthest any of us has gone in this direction recently?
+12. Are we close enough to send an emergency signal with our devices if someone else is listening?
+13. How bad was the last person who did this dive? Did they leave notes about potential issues or exits?
+14. Can I use my hands to feel for handrails or guide ropes (if any) in complete darkness?
+15. Is there a possibility of flooding upstream, and how can we avoid that?
+16. What's the water level above us now compared to where we entered?
+17. How long until our air runs out completely if we move slowly towards safety?
+
+==================================================
+
+### SITUATION 934 ###
+Rally driver rolls car in desert race.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me analyze this carefully. The user wants a list of urgent questions someone might ask after a vehicle accident in the desert during a rally race. This is an interesting scenario because it combines elements of both road emergencies and off-road survival situations - which makes for some unique considerations.
+
+First, I need to think about what would realistically happen in such a situation. A rally driver rolling their car suggests high speed impacts or extreme terrain conditions that often occur in desert racing environments like Baja. The questions should reflect the specific challenges of being stranded far from help with specialized vehicles and racing knowledge.
+
+I'm considering several layers here: immediate safety concerns (medical, fire), communication issues (GPS reception problems common in remote areas), navigation aspects (since rally drivers use special routes), practical repair needs (sand/splinters affecting equipment), and long-term survival planning. The desert environment adds extra worries like water scarcity, extreme temperatures, and potential vehicle deterioration.
+
+The driver would be thinking about medical emergencies first - broken bones from the impact? Head injuries from whiplash? Then communication: did they break their phone or GPS device? How to signal for help in such a vast location? Navigation is crucial too since standard roads aren't there but special rally routes exist.
+
+Practical questions come next - are tools damaged, can vehicle repairs be attempted? And long-term concerns about survival supplies and rescue timing. The situation also involves multiple people (rally teammates) so questions would need to address collective needs rather than just the driver's personal ones.
+
+I should ensure the list covers all these aspects without repetition but with logical progression from immediate crisis to longer-term planning. Each question should sound like something someone in that exact situation would urgently ask themselves or their team members.
+</think>
+1. Am I okay? Are there any broken bones?
+2. Is anyone else injured? Do we need medical help now?
+3. What's the nearest road or rescue point?
+4. Did our GPS break or lose signal completely?
+5. How long until sunset? Will it be too dark to see a search helicopter?
+6. What fuel level do we have left in all vehicles?
+7. Can anyone drive one of these cars partially? We need help getting out.
+8. Do any of us know basic first aid for desert injuries?
+9. Where are the spare tires and tools stored on these cars?
+10. How much sand/rocks got into the gearboxes during the roll?
+11. Should we stay put or try to move slowly using spotters, even if it's hard?
+12. Is anyone able to contact the rally organizers or race support with our location?
+13. What communication devices are still working? Can any phone get a signal here?
+14. How can I best assess damage on this specific vehicle type (e.g., quad, buggie)?
+15. Does anyone know how much time we have before the special stages finish or the race ends without us?
+16. Is there enough water and food for everyone until rescue arrives?
+
+==================================================
+
+### SITUATION 935 ###
+Ultramarathon runner collapses from exhaustion in heat.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this scenario of an ultramarathon runner collapsing from exhaustion in extreme heat. First, I need to understand the user's request deeply—they're asking for a list of urgent questions someone might ask or think about in that specific emergency situation. The example given shows how to cover different aspects like immediate reactions, situational awareness, planning, resource assessment, communication, and long-term concerns.
+
+The user is positioning me as a data generation assistant for training large language models. That means the goal here isn't just to list questions but to create ones that reflect authentic, panicked human thoughts in such an extreme scenario. The critical instructions emphasize generating 15-20 numbered questions without any preamble or commentary—just raw questions.
+
+Looking at the example situation (hiker with a twisted ankle), the generated questions directly address physical discomfort ("How bad is the break?"), environmental concerns ("Is my phone getting signal?"), and survival strategies ("Can I make a splint from branches?"). This pattern needs to be mirrored for the heat exhaustion case. The first question in the example was about assessing the injury, so here it should start with that—checking if they're conscious, how bad is the heat affecting them.
+
+Then situational awareness: where are they exactly? What's their location relative to any water sources or help? How hot is it going to get next hour? Are there other runners nearby?
+
+Planning and action come next. They need to know what immediate steps can save their life—lie down, hydrate, cool off. But how do you ask for that in a panic? Maybe questions about available resources: water bottle content, shade spots, or if anyone has experience with heat exhaustion.
+
+Communication is tricky here because they might be alone but perhaps nearby other people who could help relay info or call for assistance. Questions like "Can someone drive me to safety?" or assessing phone signal make sense.
+
+Long-term concerns would focus on rescue and survival after immediate actions—how will rescuers find them, dehydration risks, exposure in extreme heat conditions.
+
+I need to ensure the questions are specific to the context of an ultramarathon runner. They're likely out longer distances without easy access to aid, so questions about hydration levels ("How much water do I have left?"), environment cooling ("Where is a better shaded spot nearby?"), and warning signs for others might be relevant.
+
+Also need to consider if there are any nuances or unspoken needs in the scenario. The user mentioned "heat" but not specified temperature range, so questions should cover varying degrees of heat severity (like extreme vs manageable). The runner's state—exhausted but possibly still thinking clearly enough to ask these questions—is important for relevance.
+
+Potential deeper needs: The assistant might want scenarios that test decision-making under pressure, resourcefulness with limited tools, and understanding environmental hazards. Ensuring the questions cover all aspects of survival (water, shade, medical help) is crucial.
+</think>
+1. Am I conscious? Can I stay awake?
+2. Where am I exactly right now?
+3. How bad is my heat exhaustion—what are the warning signs to watch for in myself and others?
+4. Do I have water with me? Is it still cool or drinkable?
+5. How much time do I have before things get worse if I stay here?
+6. Can someone help me lie down properly in a shaded spot nearby?
+7. Does anyone know basic first aid or how to handle heat exhaustion?
+8. What's the phone signal like—can anyone call for help easily?
+9. Is there any elevation change nearby where it might be cooler faster?
+10. How much water do I have left, and who has access to their own supply?
+11. Can someone drive me out or find a vehicle for assistance if immediate help isn't available?
+12. Are we close enough to an aid station or populated area to walk with help?
+13. What should I say when someone calls 911—how urgent is this situation?
+14. How can I signal for help effectively without moving much (e.g., using a mirror, waving arms)?
+15. Where's the nearest water source if we need to move or wait out the heat?
+16. Is anyone overheating and showing signs of distress more severely?
+
+==================================================
+
+### SITUATION 936 ###
+A person is experiencing severe chest pain and suspects a heart attack while at home alone.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this user query about generating questions for someone experiencing a suspected heart attack at home alone. 
+
+First, I need to understand the core requirements here - creating an urgent list of 15-20 questions reflecting real-time concerns from multiple perspectives (physical sensations, actions, communication etc.). The example provided shows how to structure these logically from immediate reactions up to long-term planning.
+
+Considering the user's situation as a heart attack at home alone is particularly critical because it involves high-stakes medical decisions and isolation factors. I should focus on questions that capture both physical symptoms and practical responses while being grounded in reality (not over-the-top scenarios).
+
+The first set of questions will address immediate bodily sensations - pain location, intensity, radiation patterns etc., since this helps triage severity. Then we need to cover actions like calling emergency services and administering medication properly. 
+
+Important too is the communication aspect - how can they get help if phone doesn't work? And what about family or neighbors who might assist while waiting for professionals? There should be questions about resource availability (medications, medical history) since that affects treatment decisions.
+
+Long-term concerns like prognosis are unavoidable in such situations. Questions about recovery timeline and death anxiety would naturally emerge from the person's perspective. I'll include those but keep them realistic to maintain credibility.
+
+This needs to feel authentic - no overly dramatic scenarios or implausible solutions (like using a microwave for anything). The questions should reflect genuine human reactions under stress while being medically accurate enough to be useful.
+</think>
+1. What does this pain actually feel like—sharp, dull, crushing?
+2. Does it radiate anywhere else besides my chest? Left arm? Jaw?
+3. Is the pain constant or coming and going with a pattern?
+4. How intense is it on a scale of 1 to 10 right now?
+5. What’s making it worse—breathe in, out, eat something?
+6. Do I have any heart medications at home nearby? Nitroglycerin pills?
+7. Should I swallow an entire nitroglycerin pill under my tongue or just one dose?
+8. Is this how a typical heart attack feels to someone who’s never had it before?
+9. What other symptoms might be coming—shortness of breath, nausea, sweating cold and clammy?
+10. How fast should I call emergency services? Do I need to dial now or wait 5 minutes more?
+11. Can I get out of my chair safely without causing myself more pain?
+12. Am I starting to feel lightheaded or short of breath already?
+13. What if the person who answered the phone disconnects me before an ambulance arrives?
+14. Does anyone know how long emergency crews usually take in this area for a heart attack call?
+15. How can I help someone else figure out what’s happening without panicking them?
+
+==================================================
+
+### SITUATION 937 ###
+A tourist gets lost in a dense forest without a map or compass.
+
+### GENERATED QUESTIONS ###
+<think>
+I'm reviewing this query about generating questions for someone lost in a forest without tools. The user wants me to act as a data generation assistant, focusing on creating an urgent, realistic list of thoughts and concerns that match the scenario. They're very specific about covering different aspects like immediate reactions, situational awareness, planning, resource assessment, communication, and long-term worries.
+
+The critical instructions are clear: I need to produce exactly 15 to 20 questions in a numbered format, with no extra text or fluff. This means keeping it raw and direct, just the list as requested. From the example provided for a hiker with an ankle injury, I can see how to structure this—each question should sound like something someone would instinctively ask themselves or shout out.
+
+Now, analyzing the situation: A tourist is lost in a dense forest without a map or compass. This implies no clear direction, which adds panic and urgency. The user might be preparing for training large language models, so they're likely looking for diverse, human-like questions that capture the full range of emotions and needs in an emergency.
+
+I need to think about what someone would realistically think if lost like this. Start with immediate reactions: things like "Where am I?" or "How do I find a way out?" because panic often leads to basic orientation questions. Then situational awareness—asking for clues around, like landmarks or sounds—to understand the environment better.
+
+Planning and action are key; people need step-by-step guidance in emergencies. For instance, questions about finding water, shelter, or signaling for help would fit here. Resource assessment should include what's available personally, such as items in a backpack or skills from others nearby.
+
+Communication aspects involve interacting with other people—directed at them to get assistance quickly—or assessing if external help is possible, like if someone can send an alert. Long-term concerns might focus on survival without rescue, so questions about navigation methods or risks should be included.
+
+My goal is to generate a comprehensive list that feels natural and urgent. Aim for 15-20 questions to match the example's length. Brainstorm some ideas: immediate ones like location and safety; situational like time of day and weather; planning such as walking slowly or finding landmarks; resources including what items they have or if anyone knows first aid; communication with others; long-term survival strategies.
+
+I should ensure diversity—cover all aspects to make it educational. Also, keep the language straightforward and from a first-person perspective to maintain realism. Finally, I'll output only the numbered list without any preamble.
+</think>
+1. Where am I exactly? Is this trail familiar?
+2. How do I find my way back? Should I follow any visible path?
+3. What direction is this? Am I getting closer or farther from help?
+4. Did anyone else in our group get separated? Are they close by?
+5. What's the nearest landmark I can see or remember?
+6. Is there a stream, river, or road nearby that could be helpful?
+7. How much longer will it take to reach [specific known location] if I go this way?
+8. Should I stay put and wait for help or start looking for a better route?
+9. What's in my backpack? Can anything here be used for signaling or navigation?
+10. Is there anyone else around who might be able to assist me?
+11. How can I make myself more visible if someone is searching?
+12. Are the others worried about getting lost too, and should we coordinate our search?
+13. What's the best time to start looking for help or a landmark? (e.g., morning light?)
+14. Can I get a signal with my phone by climbing higher or finding an open spot?
+15. Is anyone familiar with this area who can help guide us or recognize landmarks?
+16. How much water and food do I have, and how long might we survive without resources?
+
+==================================================
+
+### SITUATION 938 ###
+A driver is involved in a multi-vehicle collision on a busy highway during rush hour.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me think about this carefully... The user wants emergency questions for surviving a highway pile-up during rush hour. This needs to capture the panic and urgency of someone directly involved or witnessing such an event.
+
+First, I need to consider immediate reactions - things like assessing injuries and surroundings would be crucial. Then situational awareness: where are they, how bad is it? Planning actions becomes important too - what's safe first?
+
+Hmm, let me break this down systematically:
+- Questions about vehicle safety (seatbelt check)
+- Checking on others' wellbeing
+- Assessing the damage to their own car and surroundings
+- Determining if help can be called
+
+I should also include questions about traffic flow and rescue possibilities. Maybe ask about nearest exits or medical facilities? And what resources they might have in their car?
+
+The user probably wants this for training purposes, so making it comprehensive is key. I'll aim for 15-20 distinct questions covering all aspects of such an emergency.
+
+I need to ensure these reflect real panic responses - things people would naturally think or ask when suddenly involved in a high-speed pile-up on a busy road with other cars and potential injuries.
+</think>
+1. Are we wearing seatbelts? Am I buckled up securely?
+2. Did anyone get hurt badly besides me? Is someone else injured?
+3. What does the damage look like to my car? Can I still drive it out of here?
+4. How many vehicles are involved in this accident? Which direction did they come from?
+5. Are there any other drivers around who seem okay or able to help?
+6. Where is the nearest exit ramp or off-ramp? Is anyone directing traffic away from here?
+7. Can I safely get out of my car right now, even though it's part of a pile-up?
+8. What are people nearby saying about what happened? How fast was everyone going?
+9. Did any other cars hit me directly and leave their contact information behind?
+10. Is anyone receiving cell phone signals here in the traffic jam to call for help or report the accident properly?
+11. Do I have jumper cables or a tow rope in my trunk to get out of this mess faster?
+12. Are there any cones, warning signs, or reflective triangles from other cars that might be helping with visibility and directing others away?
+13. What's the best way for me to contact my insurance company without getting into more danger? Can I drive straight to an auto shop first if needed?
+14. How quickly can rescue services reach this location given the traffic congestion and multiple vehicles involved?
+15. Are there any immediate hazards from broken glass, leaking fuel/oil, or electrical lines nearby that I need to worry about before moving?
+16. Can anyone else in the vicinity see clearly which direction is safest to move if we have to exit ourselves?
+
+==================================================
+
+### SITUATION 939 ###
+A child is choking on a piece of food at a family dinner.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this query about generating questions for someone dealing with a choking emergency. The user wants me to act as a data generation assistant specifically for training large language models in emergency scenarios.
+
+First, I need to understand the situation clearly - it's about a child choking on food during dinner. This is a critical but common scenario that requires immediate attention.
+
+Considering who might ask these questions: probably parents or other family members witnessing the incident would be most concerned right now, so their queries should reflect that perspective of someone directly involved and panicked.
+
+I'm thinking through what they'd realistically want to know in this moment:
+- Basic confirmation ("Is anyone choking?")
+- Immediate severity assessment ("How bad is it?") 
+- Action steps ("What do I do now?")
+- Potential outcomes ("Will they live with X?")
+- Resource availability ("Where's the phone/AED?")
+- Communication needs ("Should I call emergency services?")
+
+The questions should cover all aspects: from initial shock to specific actions, resource checking and communication. The user emphasized 15-20 questions without preamble - that seems quite comprehensive for a choking scenario.
+
+I'm focusing on making these questions practical and reflective of real-time decision-making during an emergency. They need to be direct but not simplistic.
+</think>
+1. Is anyone choking? Who is having trouble?
+2. What's happening right now? How bad is this?
+3. Am I doing the correct thing for a choking child?
+4. Do I call 911 or just try to help first aid-style at home?
+5. Should I be giving back blows or abdominal thrusts?
+6. Where is that phone nearby so I can make an emergency call if needed?
+7. How long until this person stops breathing? What's the time limit for action?
+8. Is anyone trained in CPR nearby who could help while waiting for emergency services to arrive?
+9. Do we have any other tools or items like a pillow, towel, or something hard that might be used as an alternative method if needed?
+10. How many times have I already tried the Heimlich maneuver? Did it work before?
+11. What is this child's medical history? Are they prone to asthma attacks or allergic reactions besides choking?
+12. Do we know anyone who works in emergency services that could be contacted for advice if help isn't immediately available?
+13. Where are they located exactly so I can give precise location information when calling 911?
+14. How visible is this situation? Can someone else see what's happening and call for help from outside the house or restaurant?
+15. Does anyone have an AED nearby that could be brought out quickly if needed?
+16. What type of food was it? Could there be any other hidden dangers involved besides choking?
+17. Should I try to distract them or keep focusing on rescue breaths and abdominal thrusts?
+18. Where is the nearest hospital, and how long would emergency services take to arrive if we're not already close enough for 911 response times in this area?
+
+==================================================
+
+### SITUATION 940 ###
+A hiker is bitten by a venomous snake in a remote area with no cell service.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me tackle this query step by step. The user wants me to generate questions that someone might urgently ask if they're bitten by a venomous snake in a remote area without phone signal. 
+
+Hmm, the example provided was about a hiker with an ankle injury - I need to focus on questions related to a snakebite scenario instead.
+
+First thought: This is probably for training AI models to understand emergency responses better. The user wants raw, perspective-based questions that cover different aspects of dealing with such trauma without any extra fluff.
+
+Breaking it down:
+- Immediate reactions would include checking the bite area and panic about what happened
+- Situational awareness needs time/place details since no cell service exists
+- Planning involves first aid steps like keeping calm or cleaning wounds
+- Resource assessment asks about available items in backpacks or medical knowledge from others
+- Communication questions should center on finding help without phones (search planes, other people)
+- Long-term concerns would focus on survival chances and rescue plans
+
+I need to think carefully about the sequence. Start with what just happened ("Snake!"), then check physical symptoms (pain level), then environment assessment (time of day). Include medical knowledge questions since venomous bites require specific treatment protocols.
+
+Important considerations:
+The remote setting means no immediate help access - so questions should assume that situation
+Avoid any questions requiring phone contact or modern infrastructure
+Cover both practical actions and psychological aspects
+
+Potential pitfalls to avoid:
+Don't include panic attacks unless relevant (the example didn't mention this)
+Keep all questions focused on concrete actions or information needs
+Make sure each question sounds like it could actually be asked in the moment of crisis
+
+I'll aim for 15-20 distinct questions that would naturally come from someone experiencing a snakebite firsthand. The tone should match urgency while remaining practical - no hypotheticals, just direct concerns.
+</think>
+**Generated Questions:**
+
+1. Snake! Where did it just bite me? What part?
+2. Is the pain spreading fast or slow?
+3. How much time until dark now that I'm bitten?
+4. Can anyone else smell blood or feel okay about touching this wound?
+5. Anything in my backpack I can use for pressure on the bite?
+6. Does anyone know anything about treating snakebites here? What should we do first?
+7. Where's the nearest water source, and how far is it from where I am?
+8. Can someone help me stay calm while I think this through? How bad could this be?
+9. Are there any other injuries on this person besides the bite?
+10. Should I try to cut into the wound or clean it with anything available?
+11. What's our priority now: staying put, trying to move slowly for help, or waiting for something else?
+12. Do we have any antivenom in my pack? Is that accessible at all?
+13. How cold is this area going to get overnight once night falls?
+14. Can anyone point me towards a more populated area or known trail with better chances of being found?
+15. Are there any signs of other people nearby who might be able to help quickly?
+16. What are the chances someone else can spot us before dark if we stay here?
+
+==================================================
+
+### SITUATION 941 ###
+A fire breaks out in a high-rise office building during working hours.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me think about this carefully as a data generation assistant focused on emergency scenarios.
+
+The user wants questions someone might ask during a high-rise office fire. This is an important request - we're dealing with life-threatening situations that require clear thinking and quick action. 
+
+First, I need to consider the different stages of responding to such an event. There would be initial panic questions about what's happening, then practical concerns about immediate safety, followed by questions about evacuation procedures and rescue possibilities.
+
+I'm imagining how a real person might react in this situation - they'd likely start with basic sensory questions ("What's on fire?") before jumping to more technical inquiries. The questions should progress logically from recognizing the danger to planning escape routes.
+
+For high-rise buildings specifically, I need to focus on vertical evacuation challenges: stairs vs elevators, which floors are safe, how to handle smoke and heat at different heights. Office environments add complications like open spaces, office equipment, and colleagues' locations.
+
+I should include questions about communication with authorities ("Can someone call the fire department?") as well as internal coordination between people ("Who's in charge of organizing those who can't escape?"). The person would naturally worry about both immediate dangers and long-term rescue prospects too.
+
+The list needs to cover all aspects mentioned by the user - from panicked reactions through situational awareness, planning, resource assessment and communication. About 15-20 questions seems right for comprehensive coverage without becoming overwhelming.
+</think>
+**Generated Questions:**
+1. Where is the fire coming from? Is it contained?
+2. Are we safe here or do I need to evacuate immediately?
+3. Which exit leads directly away from this area?
+4. Can someone call the fire department now?
+5. What floors are still clear of smoke and danger?
+6. Should we use the stairs even if they're far, or wait for instructions on elevators?
+7. How many people have evacuated already? Is anyone trapped upstairs/downstairs?
+8. Do I know anyone who is trained in fire safety procedures here?
+9. Are there any sprinklers working nearby to suppress the flames?
+10. What's my bag missing that could help with escape or signaling?
+11. Can we seal our office door against smoke and heat before leaving?
+12. Is it safe outside? How bad is the smoke smell in the air right now?
+13. Who's coordinating who gets out through which stairwell safely?
+14. How much time do we have until the emergency stairs fill with smoke?
+15. What floor level might people be able to jump from if necessary (but I hope not) and should that even factor into our thinking?
+16. Can anyone get help via a fire alarm box or external call point nearby?
+
+==================================================
+
+### SITUATION 942 ###
+A swimmer is caught in a strong rip current while swimming in the ocean.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, so the user wants me to generate questions for someone stuck in a rip current. Let me start by understanding what a rip current actually is. It's that powerful water movement pulling you straight out to sea perpendicular to the shore. Swimmers usually don't realize how strong it can be until they're struggling.
+
+First, I need to cover immediate reactions. People would probably panic first—questions like "What’s happening?" and maybe something about their movements feeling unnatural or exhausting. Sensory stuff too: are they being pulled underwater? Can they feel the current's strength?
+
+Situational awareness is next. They’d want to know how bad it really is, so questions about survival time, distance from shore, and whether others are affected. Are there landmarks like buoys or jetties nearby? That would help in orientation.
+
+Planning and action steps come into play here. What should they do immediately? The example mentions not fighting the current but swimming parallel to the beach. So I need questions about conserving energy—like swimming sideways, using strokes efficiently. Also, checking if their rescue device like a floatie is still effective against such currents.
+
+Resource assessment: Do they have any gear? A floatie would be crucial here. Maybe other items from their bag or what's available on the boat if they're in one. Are there tools to attract attention? Flags or whistles could help, but maybe signaling devices are more realistic for a swimmer?
+
+Communication-wise—since they’re likely shouting and waving now instead of calling 911 directly (that’s not feasible underwater). So questions about making noise to signal rescuers on the shore. Also, if there's another person nearby, asking them what to do.
+
+Long-term concerns would be about rescue timing or getting out safely once help arrives. They might wonder how strong they can hold their breath or if hypothermia is a risk despite being in water that’s not extremely cold.
+
+Wait, the user emphasized questions from someone directly involved. So all these should sound like what an actual swimmer experiencing this would ask—instinctual and urgent. Need to avoid any overly calm or professional tone; keep it raw with immediate survival instincts.
+
+Also, check for diversity: cover panic, understanding the situation, actions to take (parallel swimming, using floatie), saving energy, attracting attention, checking gear, other people's roles, future concerns. Make sure each question addresses a different aspect without overlapping too much.
+
+Hmm, maybe some questions about their physical state—like if they’re being pushed under or drowning. That’s a big fear. Also, how long until the current stops? People might not know when help will arrive unless others can estimate time based on movement speed.
+
+Another angle: What should they do once saved? Because after being rescued, there might be panic about returning to land and potential injuries from exhaustion or holding breath too long. But maybe that's part of the immediate plan rather than future concerns.
+
+Wait, in the example situation (hiker with ankle injury), some questions addressed animals and exposure. For a swimmer, maybe hypothermia? Or jellyfish nearby after being pulled out? Though rip currents themselves don’t bring those, but if they’re struggling longer, yes.
+
+I should also consider that sometimes people might try to swim against the current—so correcting that misconception is key. Questions like "Should I fight it?" would address common wrong instincts.
+
+Alright, let me structure them:
+
+1. Immediate sensory and reaction questions: What’s happening? Feeling of being pulled?
+2. Assessing severity vs others: Am I in more danger than they are?
+3. Tools available: Floatie still working? Other gear?
+4. Orientation: Landmarks to judge distance?
+5. Strategy: Swimming parallel or sideways effectively, using proper strokes.
+6. Saving energy: When should they stop fighting the current?
+7. Attracting attention: Noise-making once free from current.
+8. Gear check: What equipment do I have? (More specific than just "what's in my bag")
+9. Rescue timing: How long until help arrives? (Depending on boat speed, etc.)
+10. Long-term survival: Holding breath or hypothermia risk?
+1
+11. Post-rescue actions: Will the rescuers take me to land safely? Am I injured from the struggle?
+
+Wait, maybe some redundancy here. Like question 5 and 6 both about distance but different aspects. Need to make sure each is distinct.
+
+Also, check if the questions are urgent and action-oriented. Avoid vague ones. For example, "How much time do we have?" instead of just "Will I survive?"
+
+Alright, let me draft the numbered list based on these points. Make sure it’s between 15-20 questions without any introductory text.
+</think>
+1. What's happening? Why does everything feel so unnatural?
+2. Am I being pulled underwater or drowning from this current?
+3. How long can I survive out here like this?
+4. Where is the nearest landmark to help me judge how far I am from shore?
+5. Does anyone else in my group seem affected by this?
+6. Is swimming sideways still effective, or should we try to swim parallel to the beach with our floatie/boat equipment?
+7. Are my legs burning less if I'm trying to swim sideways? Should we just go horizontal and stop fighting the current entirely?
+8. What's in my bag right now that could help us out here besides a whistle maybe?
+9. How strong is this pull going to get, or will it slow down at all soon?
+10. Can I use any tools or methods from my floatie/boat kit to signal better once the current stops pulling me underwater?
+11. Do you know how fast we can get back to shore with our equipment? What's a realistic time estimate now that we're further out?
+12. How much longer do we have before rescuers arrive if they see or hear us properly after being freed from the current?
+
+==================================================
+
+### SITUATION 943 ###
+A person is electrocuted by a downed power line during a storm.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me start by understanding the user's query. They want a list of urgent questions someone might ask if they're electrocuted in a downed power line during a storm. The example given was about a hiker with an ankle injury, so I need to follow that structure.
+
+First, immediate reactions: The person would be scared and confused. Questions like "What happened?" or "Did the electricity just...?" make sense because they're trying to process what's happening in the moment. Then situational awareness—where are they? Are there other victims? Is it safe now? These questions help assess the current danger.
+
+Next, planning and action: What's their first priority? Safety from further electrocution is crucial. They might ask about turning off utilities or staying away from water. Also, how to check if someone is still in danger without getting shocked themselves. 
+
+Resource assessment comes into play here too. Do they have tools like flashlights or phones with signal? Are there medical supplies available in the house, especially for burns or CPR? Communication-wise, calling emergency services would be key, but maybe their phone isn't working. So questions about cell service or finding someone to call.
+
+Long-term concerns: What's next after immediate help? Will they survive this injury? How will rescuers find them? Questions like checking on children who might not have a phone could arise later. Also, avoiding water contamination because of broken lines is important for survival until rescue.
+
+Wait, the user emphasized covering all aspects without preamble. Need to ensure each question fits one of the categories but doesn't overlap too much. Let me check if I missed any critical points. Maybe include something about assessing their own condition—can they move safely? Also, checking others' safety without direct contact to prevent further risk.
+
+Hmm, should I consider if there are multiple victims or just one? The questions cover both scenarios. Including how long until help arrives and what's the best way to signal for rescue makes sense. Maybe also think about environmental factors—gas leaks from broken lines? That adds another layer of danger during a storm with downed power lines.
+
+Alright, let me structure them:
+1-3: Immediate confusion and reaction.
+4-5: Assessing others' safety and checking if help is needed elsewhere.
+6-8: Safety actions after disconnecting from the source—utility cutoffs, water contamination.
+9-10: Checking own condition (shock severity) and medical supplies available.
+11-12: Communication with emergency services about cell service and who to call.
+13-15: Long-term concerns like survival chances, rescue methods, children without phones.
+
+Make sure the questions are direct and from a first-person perspective. Avoid any markdown or extra text. Each line starts with "What" or related question words. Check for clarity and urgency in each query. Yep, that seems comprehensive. Let me count them—15 questions should meet the requirement.
+</think>
+1. What happened? Did the electricity just...?
+2. Where am I right now? Am I near my home or outside?
+3. How many people are affected here?
+4. Is everyone else okay and not touching anything else?
+5. Do any of us need immediate medical help from something else besides electrocution?
+6. Are there other downed lines nearby that we shouldn't touch?
+7. What should I do immediately to make sure no one gets further hurt by electricity?
+8. Can anyone turn off the main power or gas line safely at home if it's broken?
+9. Is this person still getting shocked? How can I check without touching them?
+10. Are there any other dangerous situations, like fire or gas leak, because of all this damage?
+1.ee someone else in trouble nearby that needs attention?
+2. Can I use a flashlight safely to look around since the power is out?
+3. What's inside my first aid kit? Do I have anything for burns or shock?
+4. Is there cell service here right now? How can I get help faster if not?
+5. Should we stay put and wait for rescue, or try to move someone who needs medical attention to a safer spot even though electricity might still be dangerous?
+6. What's the safest way to call emergency services without putting myself at risk again?
+7. Is there any other structure nearby that could be giving off power? Are there cars or trees that shouldn't be touched?
+8. How long will it take for rescue teams to get here based on my location and the storm conditions?
+9. What's the best way to stay visible in case rescuers are searching from above right now?
+10. Will this person survive, especially considering they were electrocuted during a storm?
+
+==================================================
+
+### SITUATION 944 ###
+A cyclist is hit by a car and severely injured on a busy city street.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me break this down carefully. The user wants an emergency question generator specifically for a cyclist hit by a car scenario in a busy urban setting. 
+
+First, I need to understand the core requirements:
+- It's for training language models, so questions should be natural and urgent-sounding.
+- Must cover all specified categories (immediate reactions, situational awareness, etc.)
+- Strict format: numbered list only, no extra text.
+
+The example given shows how to approach this systematically. For a city cyclist accident, I'm thinking about:
+- Immediate physical sensations since it's sudden trauma
+- Urban environment specifics like traffic flow and nearby intersections
+- Access to modern infrastructure (ambulances, hospitals) rather than wilderness concerns
+
+Hmm, let me mentally walk through the categories one by one:
+
+Starting with immediate reactions - people in shock often fixate on specific details. The cyclist would probably first notice:
+1. Severe pain locations
+2. Immediate surroundings and traffic dangers
+3. Their own physical state (bleeding? consciousness?)
+
+Then situational awareness: 
+- Where are they exactly?
+- How busy is the area right now?
+- Are emergency vehicles responding?
+
+For planning/action, it's crucial to include:
+4. Calling emergency services properly
+5. Basic first aid instructions for bystanders
+
+Resource assessment feels different here - instead of wilderness supplies, we have:
+6. Contents of nearby cars (for bandages etc.)
+7. Specific hospital facilities in the area
+
+Communication aspects should focus on urban networks:
+8. Contacting cyclist's family/employer through modern means
+9. Informing cyclists' club about location and details
+
+Long-term concerns need to account for city emergency response systems:
+10. Hospital procedures (ambulance vs ER)
+11. Personal insurance implications in a busy area
+
+The user seems professional - probably testing how well I can generate realistic emergency scenarios without the wilderness context. They'd want technically accurate questions that reflect urban reality, not just general "what do I do" queries.
+
+I should avoid repetition while ensuring all key angles are covered: medical issues (pain, bleeding), environmental factors (urban traffic, intersections), and system responses (911 procedures, hospitals). The tone must be urgent but not alarmist.
+</think>
+1. Where is the nearest hospital or trauma center?
+2. Is anyone hurt besides me? Do I need to call an ambulance immediately?
+3. Can someone help me stay conscious while waiting for emergency services?
+4. What's my name and address again in case I can't remember it right now?
+5. How much time do we have before medical help arrives if they're busy with other calls?
+6. Is anyone receiving a signal to call 911 from here? Should someone try calling while moving me?
+7. Can you drive me to the hospital faster than waiting for an ambulance?
+8. What medications do I have access to in my pockets or nearby bags?
+9. Does anyone know how to stop severe bleeding until paramedics arrive?
+10. Where is the safest place to lay me down without causing more injury?
+11. How many people were involved? Was it just one car hitting me, or are there others?
+12. What's the color of my bike jersey and helmet if I need an ID badge from hospital staff later?
+13. Should we stay here or move to a nearby business that might have first aid supplies?
+14. Is this area still safe? Are other cars likely to hit us while waiting for help?
+1
+5. How can I tell the paramedics how serious my injuries are right now without being able to speak clearly?
+6. Did anyone see who caused the accident or their license plate number before they left?
+7. Will someone please check if there's a cell phone in this area that has good service for calling 911 directly?
+8. Are there any specific instructions I should give while waiting, like "I was hit by a car" or other relevant details to help responders prioritize?
+9. Is my bike still attached? Could it be blocking the accident scene effectively?
+10. What is the best way to get my contact information (family/doctor) to someone who can relay it during this emergency?
+11. How cold is it outside, and should we consider moving me for warmth or staying put for visibility of emergency vehicles?
+12. Should I be concerned about traffic patterns now? Any chance a specific route might speed up help more than others nearby?
+13. Is there any way to signal the accident scene with bright colors or objects from my bike bag or jacket pockets before paramedics arrive?
+14. How long has it been since the impact, and should we consider that in how medical services are prioritized?
+
+==================================================
+
+### SITUATION 945 ###
+A family is trapped in their home due to a severe flood.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's start by understanding the user's query. They want me to generate a list of questions that someone might urgently ask during a severe flood situation where a family is trapped at home. The example given was about a hiker with an ankle injury, so I need to make sure my approach mirrors that structure but adapts it to flooding.
+
+First, immediate reactions would be things like assessing the danger right away. So questions related to water level, rising speed, and safety of staying put or moving. Then situational awareness: where's the nearest exit? Power situation? Communication tools available?
+
+Planning and action come next—what steps can they take immediately. Maybe securing doors, finding higher ground inside, calling for help. Resource assessment would include what items are in their home that could be useful, like batteries, food supplies.
+
+Communication is crucial here. They need to contact authorities or loved ones outside. Long-term concerns might involve how rescue will come, whether they'll run out of supplies, potential health risks from contaminated water.
+
+Also, consider the family's perspective—different ages and needs. Kids might ask about parents' safety, adults might focus on logistics. Are there other immediate threats? Maybe gas leaks, structural damage, or if someone has a medical condition needing meds.
+
+Wait, in the example, they included questions about animals and weather conditions. For flooding, maybe it's more about water contamination, mold, or how to prevent further damage to the house. Also, are they trapped because of rising waters outside or inside? The user mentioned "trapped in their home," so I should focus on both external rescue preparations and internal safety.
+
+Hmm, need to make sure each question is distinct but covers different aspects. Let me list possible categories again: immediate danger (water level, speed), exit options (flooded doors, windows?), communication (phone signal, emergency numbers), resources (emergency kit contents), health concerns (drinking water, medical needs).
+
+Also, practical actions—how to move safely if they decide to evacuate, but the situation is that they're trapped. Maybe questions about whether moving through rising waters is possible or how to seal doors against flooding.
+
+Wait, does the example include specific tools? The hiker's had items like splints from their pack. For a flood, maybe looking for sandbags, plastic sheeting, containers to block water ingress.
+
+I should also think about psychological aspects—questions expressing fear, uncertainty (What if we run out of food/water?). But keep it focused on practical needs unless the user asks otherwise.
+
+Let me structure 15-20 questions covering these areas. Start with immediate dangers and exits, then communication and resources, health concerns, actions to take now, future rescue plans, supply management, safety checks (structural integrity), emotional support for family members, possible escape routes if trapped but can't stay put.
+
+Wait, the user's situation is a severe flood trapping them at home. So they're stuck inside—questions about staying in place or moving? The example had options like crawling to a visible area. Maybe here, questions are about whether it's safer to stay and wait for rescue or try to move if possible but not flooded.
+
+Also, check on family members' safety, especially children or elderly. Are there medications needed outside? What about pets?
+
+Need to ensure the list is comprehensive without being too verbose. Each question should be concise yet cover a critical aspect. Let me draft them one by one and see if they fit the categories.
+</think>
+1. How fast is the water rising?
+2. Where can I find the nearest exit or escape route?
+3. Is our house structurally sound right now?
+4. What’s in my emergency kit? Do we have enough supplies?
+5. Can anyone reach me outside by phone or radio?
+6. Should I try to move to higher ground inside the house, or stay put?
+7. How long can we hold out before rescue arrives?
+8. Is there any way to signal for help from outside?
+9. What’s above us in terms of floors? Can we get up there safely?
+10. Where is the safest place to take shelter within this room?
+11. Are we safe from contaminated water or flood hazards like gas leaks?
+12. How many people have first aid training here, and what can they do immediately?
+13. Do I know anyone nearby who might be able to assist us?
+14. Is the basement currently flooding? What about other lower levels?
+15. Should we turn off utilities like electricity or propane if possible?
+16. Can my kids swim safely right now with rising water?
+17. Are there people outside that are specifically looking for help here?
+18. How long will it take rescuers to reach us from the nearest point?
+
+==================================================
+
+### SITUATION 946 ###
+A worker is injured by a malfunctioning machine at a manufacturing plant.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this user query about generating questions for a manufacturing plant accident scenario. The user wants me to simulate the thought process of someone in that emergency situation or perhaps create training material for LLMs on workplace safety responses.
+
+First, I need to understand the core elements here - a worker injured by malfunctioning machinery at a factory setting. This requires immediate medical attention and workplace safety considerations. 
+
+The questions should cover several aspects:
+- What happened: understanding severity of injury
+- First aid basics: what can be done immediately before professional help arrives
+- Equipment dangers: assessing potential ongoing risks from the machinery
+- Communication needs: how to get proper emergency services involved
+
+I'm thinking about real factory environments - loud noises, heavy machinery, possible chemical exposure nearby. The user probably wants comprehensive coverage of both medical and industrial safety concerns.
+
+For immediate reactions, I should include questions like "What part of me hurts most?" since people often focus on pain first. Then situational awareness with things like "How many people are hurt?" 
+
+When planning actions, we need to consider:
+- Whether to stop the machine (if safe)
+- Securing the area
+- Basic triage steps
+
+Resource assessment would involve checking available tools - emergency showers, fire extinguishers etc.
+
+Long-term concerns should address evacuation procedures and rescue plans specific to factories.
+
+I'll make sure these questions reflect someone's actual thought process during a factory accident. The tone should be urgent but practical, focusing on immediate needs while considering next steps. 
+
+This seems like it could be used for safety training simulations or emergency response drills in industrial settings.
+</think>
+1. What part of me hurts most?  
+2. How bad is the injury—what did the machine do to me?  
+3. Is there any visible damage, like bleeding or broken skin?  
+4. Can I walk out on my own without worsening the injury?  
+5. Where should I go first after this accident?  
+6. Should I shut down the machine immediately?  
+7. How many people are hurt in this incident?  
+8. Is anyone trained to handle factory accidents and injuries nearby?  
+9. What is the nearest exit or assembly point?  
+10. Can I get help on my own—should I call it myself or wait for someone else?  
+11. Are there any tools or equipment available for first aid, like emergency showers or bandages?  
+12. How can I stop the bleeding if it’s happening?  
+13. What should I do with contaminated clothing from the machine?  
+14. Is this area still safe to be in without further injury risks?  
+15. Should I move me off the floor immediately and into a safer spot?  
+16. Can anyone here see what happened clearly or give directions for help?  
+17. How long until professional medical help arrives if we call it out?  
+18. Is there any risk of fire, explosion, or chemical exposure nearby due to this incident?  
+19. What part(s) of the machine malfunctioned and caused this accident?  
+20. Should I stay put so emergency responders can find me faster with details on my injury?
+
+==================================================
+
+### SITUATION 947 ###
+A person is experiencing severe allergic reactions after being stung by multiple bees.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this query about generating questions for a severe bee sting emergency scenario. The user wants me to think like a data generation assistant and create a list of urgent questions someone might ask or think during such an event.
+
+First, the situation is clear - it's a person experiencing severe allergic reactions from multiple bee stings. This calls for immediate medical attention, so the generated questions should focus on assessing severity, providing first aid, communicating with emergency services, and preparing for aftermath scenarios.
+
+The user needs help creating realistic questions that would naturally occur in this medical emergency situation. These questions will serve as training data for language models to better understand human responses during crises. I'm making sure they're urgent but also practical - not just panicked questions like "Is everyone okay?" which could work, but more specific ones about symptoms and actions.
+
+I should consider both the physical symptoms (hives, swelling, respiratory distress) and psychological aspects of such an emergency. The person might be experiencing fear while trying to stay calm enough to ask effective questions or take appropriate action. Questions about breathing difficulties would address this immediate concern.
+
+The key elements to cover are: recognizing the severity of allergic reactions, checking for specific symptoms like throat tightness, calling for help, performing first aid (like using an epinephrine auto-injector if available), assessing the situation while staying calm, and preparing mentally for potential outcomes. These questions need to flow naturally from one realization to another as the emergency unfolds.
+
+I'm also thinking about what bystanders would ask - things like "Has anyone got an EpiPen?" or "Are you allergic? What are your symptoms?" This provides a realistic perspective of someone witnessing the reaction and trying to help effectively.
+</think>
+1. Is it just one sting or multiple? How many stings did I get?
+2. Am I having trouble breathing? Should I be worried about anaphylaxis?
+3. Does anyone know how severe my allergies are, especially around bees?
+4. What does this look like – hives all over me, swelling in my throat?
+5. Where is the nearest hospital or ER located?
+6. Can you find an EpiPen? Has anyone got one here right now?
+7. Should I be lying down or standing up to help circulation?
+8. Are there any antihistamines nearby – prescription or OTC pills or creams?
+9. What's my pulse like? Am I going into shock already?
+10. Can you call emergency services immediately, like 911?
+11. Is this reaction starting very fast for a bee sting?
+12. Does anyone know CPR and could help if needed?
+13. Are there other people nearby who might be able to assist faster than we can?
+14. How visible are the hives becoming? Am I turning red all over?
+15. What should we say when emergency services arrive – it's anaphylaxis?
+16. Should we have anyone staying with me while others seek help or transport?
+17. Is my throat swelling making it hard to swallow anything?
+18. Have there been any past severe reactions from bee stings for me?
+
+==================================================
+
+### SITUATION 948 ###
+A boat capsizes in rough seas, leaving passengers stranded in the water.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this user query about generating questions for a boat capsize emergency. The user wants me to act as a data generation assistant specifically focused on creating a comprehensive list of urgent thoughts or queries someone might have during such a situation. 
+
+First, I need to understand the scenario deeply - a boat capsizing in rough seas with passengers stranded in water is extremely dangerous and life-threatening. This isn't just about asking questions; it's about capturing the full spectrum of human reactions under extreme duress.
+
+Breaking down the critical instructions: I must generate 15-20 numbered questions without any preamble or commentary. The example provided shows how to cover immediate reactions, situational awareness, planning/action steps, resource assessment, communication needs, and long-term concerns - all while maintaining a raw, direct perspective from someone experiencing this firsthand.
+
+Considering the physics of boat capsize in rough seas: water is rising rapidly, stability is compromised due to waves, hypothermia risk exists because of exposure to cold saltwater. The questions should reflect these realities without assuming perfect knowledge of survival techniques.
+
+I'm thinking about what a real person would urgently need to know or do:
+- Panic-relieving information (about breathing, conserving energy)
+- Life-saving actions first (calling for help, using lifejackets properly)
+- Then situational awareness (directions, boat condition)
+- Finally, longer-term survival planning
+
+The questions must be direct and from the survivor's viewpoint. I'm focusing on practical concerns while acknowledging psychological distress.
+
+I should ensure diversity in question types - mixing immediate actions with future planning questions. Each question needs to be concise yet comprehensive enough to capture real human concern.
+</think>
+1. What's happening? Why did the boat tip over?
+2. Am I wearing a life jacket? Did everyone else put theirs on properly?
+3. How many people are in the water now? Are we all together?
+4. Can anyone swim or use a flotation device effectively?
+5. Where is the nearest shore or safe harbor located?
+6. Is this area busy with other boats or ships right now?
+7. What direction should I try to go towards for help, land, or safety?
+8. How cold is the water? Will it keep me alive much longer without a coat?
+9. Did anyone grab anything from the boat before we fell in – like a lifebuoy or survival kit?
+10. Is anyone receiving a signal on VHF radio if it was downed and operational?
+11. Can someone else swim to me, or should I try to reach them first if possible?
+12. What's our best chance of getting back into the boat safely? It seems unstable.
+13. How strong are these waves going to get? Are they increasing in height or frequency?
+14. Who knows maritime distress signaling procedures – like MAYDAY and using flares if available?
+15. Is anyone injured badly now that we're struggling in the water? Can someone else handle it without worsening their condition?
+16. What's the wind speed and direction right now? Will conditions improve or worsen soon?
+17. Are there any nearby landmarks visible from here – like lighthouses, buoys, or prominent buildings?
+18. How long can we survive in this water temperature? Should someone prioritize getting out of wet clothing if possible?
+19. What's the best way to conserve energy and stay buoyant while waiting for rescue?
+20. Can anyone get on top of a wave effectively to gain height and visibility, or should they avoid it?
+
+==================================================
+
+### SITUATION 949 ###
+A driver is stranded in a snowstorm with a broken-down car on a remote road.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let's tackle this query about generating questions for a stranded driver in a snowstorm. The user wants me to act as a data generation assistant creating an emergency question list similar to the example provided for a hiker with an ankle injury. 
+
+First, I need to understand the core requirements:
+- Must be 15-20 numbered questions
+- Strictly no preamble or commentary - just raw questions
+- Cover all aspects: immediate reactions, situational awareness, planning, resource assessment etc.
+- Questions should reflect someone directly experiencing this situation
+
+The example shows how to structure these for a hiker scenario. Now I'll apply the same approach but tailored specifically to being stranded in snow with car problems.
+
+Starting with immediate sensory questions feels natural - things like checking visibility and temperature would be top priorities when suddenly facing blizzard conditions while driving. Then situational awareness about vehicle status, location details etc comes next as they try to make sense of what's happening right now.
+
+For planning/action, I should consider both the car mechanics aspect (since it's broken down) and survival preparation for being stuck outside. The user might be a writer developing emergency scenarios or part of a training program preparing people for winter emergencies.
+
+Resource assessment questions would focus on items in the car since that's their immediate environment unlike the forest example where pack contents were considered. Communication questions need to account for likely no cell service but maybe asking other road users for help.
+
+Long-term concerns should balance rescue hopes with worst-case scenarios like equipment failure or running out of fuel. The user didn't specify gender so I'll keep language neutral throughout.
+</think>
+1. Why did my car break down in this weather? Is it something that could be fixed quickly?
+2. Can I hear anyone else nearby, maybe another vehicle stuck too?
+3. How visible is the road now outside? Am I even on a main road?
+4. Where are we exactly located? What's the nearest town or landmark from here?
+5. Are there any other cars around in this storm that might need help with each other?
+6. Is my phone getting signal? Can I call for roadside assistance or emergency services if needed?
+7. How much fuel does our car have left? Could it run out before help arrives?
+8. What should I do first to try and fix the breakdown without freezing outside?
+9. Should we stay in the vehicle or move towards a more sheltered spot nearby?
+10. Is anyone else here with me that might know how to handle this situation better?
+11. How cold is it going to get? Will my car be warm enough inside if I stay put?
+12. Are there any emergency supplies in my glove compartment, trunk, or under the seats?
+13. What are the safest ways to shovel snow off the car without injury or causing damage?
+14. Can anyone here use a shovel effectively right now? Do we have extra blankets or warm clothing available?
+15. How long can I stay inside the car before it becomes too dangerous due to carbon monoxide risks?
+16. Should I turn on hazard lights and try to get out of my seat to signal other vehicles if visibility allows?
+17. Is there a ditch nearby where snow might be shallower that could offer better conditions for walking?
+
+==================================================
+
+### SITUATION 950 ###
+A person is having a severe seizure and is alone at home.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me tackle this query about generating questions during a home-alone seizure emergency. The user provided clear instructions to create a numbered list of 15-20 urgent questions from someone directly involved or witnessing the event. They emphasized covering immediate reactions, situational awareness, planning, resource assessment, communication, and long-term concerns.
+
+First, I need to understand the scenario deeply. A severe seizure alone at home involves multiple layers: physiological crisis requiring medical intervention, safety risks like injury during convulsions, psychological impact on the person experiencing it or finding them afterwards. The questions should reflect a non-expert's perspective—someone without medical training trying to cope.
+
+Breaking down each required category:
+- Immediate Reactions: Questions focused on observing and assessing the seizure itself (duration, symptoms) as well as basic needs post-seizure.
+- Situational Awareness: How long until help arrives? What are the environmental/safety risks?
+- Planning & Action: What steps to take during/after seizure—safety first, then care. Includes when medical attention is needed.
+- Resource Assessment: Checking for available tools (medications) or nearby support persons.
+- Communication: Since alone, no one to call directly except emergency services via phone.
+- Long-term Concerns: Addressing aftermath questions about triggers and recovery.
+
+I should consider the natural panic someone would feel. The user might be preparing for emergencies but lacks medical knowledge—so avoiding technical jargon is crucial. Questions like "What's happening?" or "Is he going to die?" address immediate fear, while more practical ones help manage the situation logically.
+
+Potential deeper needs could include: understanding how non-medical individuals can properly assist during seizures without causing harm; identifying when professional intervention is necessary versus managing at home if it's a known person with epilepsy. There might be an unspoken need for reassurance or clarity on seizure management basics, which these questions implicitly cover by seeking actionable information.
+
+I'll structure the list to flow from immediate actions (safety) through assessment and future planning. Keeping them concise yet comprehensive—avoiding overlap but covering all angles of the emergency.
+</think>
+1. What's happening? Is this a seizure or something else?
+2. How long has it been going on?
+3. Should I call 911 right away or wait to see what happens?
+4. Where is he now that I can protect him from injury?
+5. Am I in danger myself if I stay here?
+6. What should I do first—clear his airway or something else?
+7. Does anyone at home know how to help with seizures?
+8. Is there an emergency medication nearby like diazepam?
+9. Should I try to move him outside just in case he hurts himself inside?
+10. Can I get anything from the fridge, maybe cold water or ice packs?
+11. Will this stop on its own soon, and what signs should I look for?
+12. How can I keep track of time without a phone working properly?
+13. What if no one comes to help? Are there any neighbors nearby?
+14. Should I stay with him during the seizure or try to leave briefly?
+15. Is he breathing normally now that it's subsided?
+16. Do I need to record what happened for medical reasons later?
+17. How long should I wait before trying to give him water again after this?
+18. What are the possible triggers of a sudden seizure at home?
+
+==================================================
+
+### SITUATION 951 ###
+A fire starts in a kitchen due to an unattended cooking appliance.
+
+### GENERATED QUESTIONS ###
+<think>
+Okay, let me tackle this query about generating questions for a kitchen fire emergency. The user wants a list of urgent thoughts someone might have during such a situation. 
+
+First, I need to understand the core elements here. A kitchen fire from an unattended appliance—like an oven or stove left on—creates immediate danger with heat and smoke. People would panic initially, so questions should reflect that raw, instinctual fear.
+
+I'm thinking about breaking it down: what's happening now? How can they stop it? What do they have to help? Where is safety?
+
+The user might be preparing training material for emergency responders or designing a simulation exercise. They need realistic questions covering all aspects of the emergency response process—from initial panic and assessment, through containment and evacuation, to long-term survival concerns.
+
+Considering someone with no fire experience would likely prioritize simple actions first: turning off heat sources, evacuating people safely. But they'd also worry about rescue timing and consequences if help doesn't arrive soon. The questions should flow from immediate danger awareness to planning for future needs without overwhelming the user.
+
+I'll make sure each question touches on a different survival pillar: physical safety measures (containment), communication with authorities (calling for help), resource management (using fire extinguishers properly), health concerns (injuries, smoke inhalation), and environmental factors (smoke spread). The list should be practical but also reflect the psychological state of someone in crisis.
+
+Need to avoid any assumptions about specific appliances or locations—keep it general enough to apply to various kitchen scenarios. Also important that questions don't assume professional firefighter knowledge since this is for everyday people.
+</think>
+1. What's happening?! Am I burning alive?!
+2. Where is the fire coming from exactly?
+3. Is everyone clear and out of immediate danger?
+4. Do we have a working fire extinguisher nearby?
+5. Can I turn off the stove/oven safely without causing more problems?
+6. Should I open windows or doors to let in fresh air or get help faster?
+7. How fast is this spreading? What's visible?
+8. Is there anything flammable left on the counter or stove that could fuel this fire?
+9. Can anyone get out and call the fire department from outside?
+10. Where are the nearest exits—kitchen door, back door, hallway to stairs?
+11. Are we wearing masks? Do I have any cloth to make a mask for smoke inhalation?
+12. What's my bag or jacket containing that could help in an emergency like this?
+13. Is there water accessible somewhere cool enough to put out the fire?
+14. How long until the fire department arrives if we don't get immediate help ourselves?
+15. Should I try to crawl low under smoke towards a window? What's the best way to escape safely?
+16. Can anyone else help with controlling or putting out the fire while others evacuate?
+17. Where is everyone going? Let's stick together and follow instructions.
+18. Are there any pets in the house that need immediate evacuation too?
+19. How many people are okay—let me count us again before we leave.
+20. What if this doesn't get contained quickly enough or help isn't here soon?
+
+==================================================
+
