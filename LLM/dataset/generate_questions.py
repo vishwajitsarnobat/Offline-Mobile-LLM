@@ -1,134 +1,143 @@
-import ollama
+import requests
+import json
 import os
 import re
-from tqdm import tqdm
+import time
 
-INPUT_FILE_NAME = "situations.txt"
-MODEL_NAME = "deepseek-r1" # gpt-oss
-OUTPUT_FILE_NAME = f"{MODEL_NAME}_questions_dataset.txt"
+# --- Configuration ---
+SITUATIONS_FILE = "situations.txt"
+# This is the prompt template you provided. The situation will be prepended to it.
+QUESTION_GENERATION_PROMPT_TEMPLATE = """
+Imagine you are the person in the following situation: you have no internet access, and you might be completely alone. You do, however, have an offline AI assistant on your phone. What specific, practical, and urgent questions would you ask it?
 
-PROMPT_TEMPLATE = """
-You are a data generation assistant for training large language models. Your task is to generate a comprehensive and diverse list of questions that a person might urgently think or ask in a specific survival or emergency situation.
+Task:
+Generate a list of 15 to 20 questions. The questions should be varied and cover immediate actions, diagnostic queries, step-by-step procedures, and follow-up concerns.
 
-The questions must reflect the perspective of someone directly involved or witnessing the event. Cover a wide spectrum of concerns:
-- **Immediate Reactions:** Panicked, instinctual, sensory questions ("What's happening?", "Is everyone okay?!").
-- **Situational Awareness:** Information-seeking questions about the environment ("Where is the nearest exit?", "How much time do we have?").
-- **Planning & Action:** Problem-solving questions ("What's the first thing I need to do?", "How can I fix this?").
-- **Resource Assessment:** Questions about available tools or skills ("What do I have in my bag?", "Does anyone know first aid?").
-- **Communication:** Questions directed at others or about getting help ("Can you call 911?", "Is anyone receiving a signal?").
-- **Long-term Concerns:** Questions about what happens next ("How will we get rescued?", "What if no one comes?").
+Examples of question types:
+- "What are the very first things I need to do right now?"
+- "How can I tell if this is getting worse?"
+- "Give me a step-by-step guide on how to [perform a specific task]."
+- "What common mistakes should I avoid?"
+- "What can I use as a substitute for [a specific tool or item]?"
 
-**CRITICAL INSTRUCTIONS:**
-- Generate a numbered list of **15 to 20 questions**.
-- Do NOT add any preamble, commentary, or conclusion. Provide ONLY the raw numbered list of questions.
-
----
-**EXAMPLE**
-
-**Situation:**
-A hiker twists their ankle deep in the forest and cannot walk back to the trailhead.
-
-**Generated Questions:**
-1. How bad is the break? Can I put any weight on it?
-2. Is my phone getting any signal?
-3. What do I have in my pack for first aid?
-4. How long until it gets dark?
-5. Is anyone else on this trail likely to pass by?
-6. Should I stay put or try to crawl to a more visible area?
-7. Where is the nearest source of fresh water?
-8. Can I make some kind of splint from branches?
-9. Did I tell anyone my exact route and return time?
-10. What animals are in this area and what should I do if one approaches?
-11. How cold is it going to get tonight?
-12. Is there anything here I can use for shelter?
-13. How can I make myself more visible to rescuers?
-14. What's the biggest immediate threat: the injury, dehydration, or exposure?
-15. Should I try shouting for help periodically?
-
----
-**TASK**
-
-**Situation:**
-{situation}
-
-**Generated Questions:**
+Instruction:
+List only the questions, ensuring they are numbered.
 """
+# IMPORTANT: Update this list with the exact names of your local Ollama models
+MODELS_TO_QUERY = [
+    "gpt-oss",
+    "llama3.1",
+    "deepseek-r1",
+    "mixtral"
+]
+OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
-def get_already_processed_count(filename):
-    """Checks the output file to see how many situations have been processed to allow resuming."""
+def get_last_processed_situation_number(filename):
+    """Reads an output file and finds the highest situation number processed."""
     if not os.path.exists(filename):
         return 0
+    last_num = 0
     try:
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
-        # Find all occurrences of "### SITUATION X ###" and get the highest number
-        processed_indices = [int(i) for i in re.findall(r'### SITUATION (\d+) ###', content)]
-        return max(processed_indices) if processed_indices else 0
-    except Exception:
-        return 0
+            # Find all numbers that start a line and are followed by a period.
+            found_numbers = re.findall(r'^\s*(\d+)\.', content, re.MULTILINE)
+            if found_numbers:
+                last_num = max(int(n) for n in found_numbers)
+    except Exception as e:
+        print(f"Warning: Could not parse {filename} to find last situation number. Starting from scratch. Error: {e}")
+    return last_num
 
-def check_ollama_status():
-    """Checks if the Ollama service is running."""
-    try:
-        ollama.list()
-        return True
-    except Exception:
-        print("\n--- Ollama Connection Error ---")
-        print("Could not connect to the Ollama service. Please ensure the Ollama application is running.")
-        return False
-
-def generate_questions():
-    """Reads situations, skips processed ones, queries the model, and appends results."""
-    if not os.path.exists(INPUT_FILE_NAME):
-        print(f"\nError: Input file '{INPUT_FILE_NAME}' not found.")
-        return
-
-    with open(INPUT_FILE_NAME, 'r', encoding='utf-8') as f:
-        situations = [line.strip() for line in f if line.strip()]
-
-    if not situations:
-        print(f"Error: No situations found in '{INPUT_FILE_NAME}'.")
-        return
-
-    processed_count = get_already_processed_count(OUTPUT_FILE_NAME)
+def get_questions_from_ollama(model_name, situation_text):
+    """Sends a situation to a local Ollama model and gets generated questions."""
+    # Construct the full prompt for the model
+    full_prompt = f"Situation:\n{situation_text}\n\n{QUESTION_GENERATION_PROMPT_TEMPLATE}"
     
-    if processed_count >= len(situations):
-        print("All situations have already been processed. Nothing to do.")
-        return
-        
-    if processed_count > 0:
-        print(f"Resuming generation. Found {processed_count} already processed situations. Skipping...")
+    payload = {
+        "model": model_name,
+        "prompt": full_prompt,
+        "stream": False,
+    }
+    
+    try:
+        response = requests.post(OLLAMA_API_URL, json=payload, timeout=300) # 5 min timeout
+        response.raise_for_status()
+        response_json = response.json()
+        return response_json.get("response", "").strip()
+    except requests.exceptions.RequestException as e:
+        print(f"\nError querying model '{model_name}': {e}")
+        return None
 
-    # Open the output file in append mode ('a')
-    with open(OUTPUT_FILE_NAME, 'a', encoding='utf-8') as f_out:
-        # Create a progress bar starting from the last processed situation
-        for i in tqdm(range(processed_count, len(situations)), desc="Generating Questions", initial=processed_count, total=len(situations)):
-            situation = situations[i]
-            prompt = PROMPT_TEMPLATE.format(situation=situation)
-            
-            try:
-                response = ollama.chat(
-                    model=MODEL_NAME,
-                    messages=[{'role': 'user', 'content': prompt}]
-                )
-                generated_questions = response['message']['content'].strip()
-                
-                f_out.write(f"### SITUATION {i+1} ###\n")
-                f_out.write(f"{situation}\n\n")
-                f_out.write("### GENERATED QUESTIONS ###\n")
-                f_out.write(f"{generated_questions}\n")
-                f_out.write("\n" + "="*50 + "\n\n")
+def format_questions(raw_text):
+    """Cleans and re-numbers the questions from the LLM's raw output."""
+    lines = [line.strip() for line in raw_text.split('\n') if line.strip()]
+    formatted_lines = []
+    question_num = 1
+    for line in lines:
+        # Remove any existing list markers (bullets, numbers, etc.)
+        cleaned_line = re.sub(r'^\s*[\*\-\•\d]+\.?\)?\s*', '', line)
+        if cleaned_line: # Ensure the line is not empty after cleaning
+            formatted_lines.append(f"{question_num}. {cleaned_line}")
+            question_num += 1
+    return "\n".join(formatted_lines)
 
-            except Exception as e:
-                print(f"\nAn error occurred while processing situation {i+1}: {e}")
-                f_out.write(f"### SITUATION {i+1} ###\n")
-                f_out.write(f"{situation}\n\n")
-                f_out.write("### GENERATED QUESTIONS ###\n")
-                f_out.write(f"--- ERROR: FAILED TO GENERATE --- (Error: {e})\n")
-                f_out.write("\n" + "="*50 + "\n\n")
-
-    print(f"\nDataset generation complete! Results saved in '{OUTPUT_FILE_NAME}'")
-
+# --- Main Script Logic ---
 if __name__ == "__main__":
-    if check_ollama_status():
-        generate_questions()
+    print("Starting question generation process...")
+
+    # 1. Read all situations from the file
+    try:
+        with open(SITUATIONS_FILE, 'r', encoding='utf-8') as f:
+            situations = [line.strip() for line in f if line.strip()]
+        if not situations:
+            print(f"Error: No situations found in '{SITUATIONS_FILE}'.")
+            exit()
+        print(f"Loaded {len(situations)} situations from '{SITUATIONS_FILE}'.")
+    except FileNotFoundError:
+        print(f"Error: The file '{SITUATIONS_FILE}' was not found.")
+        exit()
+
+    # 2. Loop through each model
+    for model in MODELS_TO_QUERY:
+        output_filename = f"{model.replace(':', '-')}_questions.txt"
+        print(f"\n--- Processing model: {model} ---")
+        
+        # 3. Check where to resume from
+        last_processed_num = get_last_processed_situation_number(output_filename)
+        if last_processed_num > 0:
+            print(f"Resuming for '{model}'. Last situation processed was #{last_processed_num}.")
+        
+        # Open the output file in append mode to add new content
+        with open(output_filename, 'a', encoding='utf-8') as f_out:
+            # 4. Loop through each situation line
+            for situation_line in situations:
+                # Extract the number from the situation line (e.g., "1. Some text")
+                match = re.match(r'^\s*(\d+)\.(.*)', situation_line)
+                if not match:
+                    continue # Skip lines that are not correctly numbered
+                
+                current_num = int(match.group(1))
+                situation_text = match.group(2).strip()
+                
+                # If this situation is already processed, skip it
+                if current_num <= last_processed_num:
+                    continue
+                
+                print(f"  [{model}] Querying for situation #{current_num}: '{situation_text[:70]}...'")
+                
+                generated_questions_raw = get_questions_from_ollama(model, situation_text)
+                
+                if generated_questions_raw:
+                    formatted_q = format_questions(generated_questions_raw)
+                    
+                    # Write the formatted block to the file
+                    f_out.write(f"{situation_line}\n")
+                    f_out.write(f"{formatted_q}\n\n")
+                else:
+                    print(f"  [{model}] FAILED to get questions for situation #{current_num}. Skipping.")
+                    f_out.write(f"# FAILED for situation: {situation_line}\n\n")
+                
+                # A small delay to avoid overwhelming the server
+                time.sleep(1)
+
+    print("\nAll models processed. Question generation is complete.")
