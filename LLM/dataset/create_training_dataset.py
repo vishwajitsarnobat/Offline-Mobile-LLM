@@ -9,8 +9,8 @@ import time
 QUESTION_FILES = [
     "gpt-oss_questions.txt",
     "llama3.1_questions.txt",
-    "deepseek-r1_questions.txt",
-    "mixtral_questions.txt"
+    "deepseek-r1_questions.txt"
+    # "mixtral_questions.txt"
 ]
 
 # 2. The local model that will act as the "teacher" to provide the answers.
@@ -27,9 +27,11 @@ You are an expert AI assistant. Your purpose is to provide clear, safe, factual,
 """
 
 def parse_question_files(filenames):
-    """Reads all question files and consolidates them into a single dictionary."""
+    """
+    Reads all question files and consolidates them into a single dictionary.
+    This version is corrected to properly handle the file structure.
+    """
     consolidated_data = {}
-    situation_pattern = re.compile(r'^\s*(\d+\..*?)$', re.MULTILINE)
     
     for filename in filenames:
         if not os.path.exists(filename):
@@ -40,15 +42,16 @@ def parse_question_files(filenames):
         with open(filename, 'r', encoding='utf-8') as f:
             content = f.read()
         
-        # Split the content by situation blocks
-        # The delimiter is the situation line itself, so we use a lookahead
-        blocks = situation_pattern.split(content)[1:] # Skip first empty string
+        blocks = re.split(r'\n\s*\n', content)
         
-        for i in range(0, len(blocks), 2):
-            situation = blocks[i].strip()
-            questions_text = blocks[i+1]
+        for block in blocks:
+            if not block.strip():
+                continue
             
-            # Clean and extract individual questions
+            lines = block.strip().split('\n')
+            situation = lines[0].strip()
+            questions_text = "\n".join(lines[1:])
+            
             questions = [q.strip() for q in re.findall(r'\d+\.\s*(.*)', questions_text)]
             
             if situation not in consolidated_data:
@@ -56,7 +59,7 @@ def parse_question_files(filenames):
             
             consolidated_data[situation].update(questions)
             
-    # Convert sets back to lists
+    # Convert sets back to lists for processing
     return {sit: list(qs) for sit, qs in consolidated_data.items()}
 
 def generate_answer(model_name, context, question):
@@ -101,32 +104,37 @@ if __name__ == "__main__":
     # 3. Generate answers for unprocessed questions
     print(f"--- Phase 2: Generating Answers with Teacher Model ({TEACHER_MODEL}) ---")
     
-    with open(OUTPUT_JSONL_FILE, 'a', encoding='utf-8') as f_out:
-        processed_count = 0
-        for situation, questions in all_data.items():
-            for question in questions:
-                # If question is already processed, skip it
-                if question in processed_questions:
-                    continue
-                
-                processed_count += 1
-                print(f"Generating answer {processed_count}/{total_questions - len(processed_questions)} | Situation: '{situation[:50]}...'")
-                
-                answer = generate_answer(TEACHER_MODEL, situation, question)
-                
-                if answer:
-                    # Create the JSON record
-                    json_record = {
-                        "instruction": question,
-                        "response": answer,
-                        "context": situation # Including context is good practice
-                    }
-                    # Write it as a new line in the JSONL file
-                    f_out.write(json.dumps(json_record) + "\n")
-                else:
-                    print(f"  -> FAILED to get an answer for question: '{question}'. Will retry on next run.")
+    questions_to_process = []
+    for situation, questions in all_data.items():
+        for question in questions:
+            if question not in processed_questions:
+                questions_to_process.append((situation, question))
 
-                time.sleep(1) # Small delay to be nice to the Ollama server
+    processed_count = 0
+    with open(OUTPUT_JSONL_FILE, 'a', encoding='utf-8') as f_out:
+        for situation, question in questions_to_process:
+            
+            # Safety check for short questions (less than 5 words)
+            if len(question.split()) < 5:
+                print(f"  -> SKIPPING short question (fewer than 5 words): '{question}'")
+                continue
+            
+            processed_count += 1
+            print(f"Generating answer {processed_count}/{len(questions_to_process)} | Situation: '{situation[:50]}...'")
+            
+            answer = generate_answer(TEACHER_MODEL, situation, question)
+            
+            if answer:
+                json_record = {
+                    "instruction": question,
+                    "response": answer,
+                    "context": situation
+                }
+                f_out.write(json.dumps(json_record) + "\n")
+            else:
+                print(f"  -> FAILED to get an answer for question: '{question}'. Will retry on next run.")
+
+            time.sleep(1)
 
     print("\n--- Dataset Creation Complete ---")
     print(f"Your final, training-ready dataset is saved to: {OUTPUT_JSONL_FILE}")

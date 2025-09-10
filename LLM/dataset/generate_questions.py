@@ -28,7 +28,6 @@ MODELS_TO_QUERY = [
     "gpt-oss",
     "llama3.1",
     "deepseek-r1",
-    "mixtral"
 ]
 OLLAMA_API_URL = "http://localhost:11434/api/generate"
 
