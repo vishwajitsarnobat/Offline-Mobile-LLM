@@ -8,10 +8,10 @@ import os
 base_model_id = "microsoft/Phi-3-mini-4k-instruct"
 
 # 2. The path to your trained LoRA adapters.
-adapter_path = "./offline-assistant-phi3-mini/final_checkpoint"
+adapter_path = "/home/dell-pc-03/Offline-Mobile-LLM/LLM/scripts/offline-assistant-phi3-mini/final_checkpoint"
 
 # 3. The directory where the final, merged model will be saved.
-merged_model_path = "./phi3-mini-offline-assistant-merged"
+merged_model_path = "/home/dell-pc-03/Offline-Mobile-LLM/LLM/scripts/phi3-mini-offline-assistant-merged"
 
 # --- Main Script Logic ---
 print(f"Loading base model: {base_model_id}")
