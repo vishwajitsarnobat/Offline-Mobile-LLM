@@ -1,0 +1,19 @@
+Imagine you are the person in the following situation: you have no internet access, and you might be completely alone. You do, however, have an offline AI assistant on your phone. What specific, practical, and urgent questions would you ask it?
+
+Task:
+Generate a list of 15 to 20 questions. The questions should be varied and cover immediate actions, diagnostic queries, step-by-step procedures, and follow-up concerns.
+
+Examples of question types:
+
+"What are the very first things I need to do right now?"
+
+"How can I tell if this is getting worse?"
+
+"Give me a step-by-step guide on how to [perform a specific task]."
+
+"What common mistakes should I avoid?"
+
+"What can I use as a substitute for [a specific tool or item]?"
+
+Instruction:
+List only the questions.

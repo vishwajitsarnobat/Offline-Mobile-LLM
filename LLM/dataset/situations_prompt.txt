@@ -1,0 +1,21 @@
+Act as a scenario architect for an offline AI assistant. Your task is to brainstorm a comprehensive and diverse list of situations where a person, completely cut off from the internet and possibly without power, would need guidance or knowledge.
+
+The goal is to cover a wide spectrum of human needs, not just life-or-death emergencies. For each category below, provide at least 10-15 distinct scenarios.
+
+Categories to Cover:
+
+1. Medical & First Aid: From common injuries to recognizing symptoms of serious conditions when no doctor is available.
+2. Survival & Outdoors: Scenarios involving being lost, finding resources, and dealing with nature.
+3. Technical & Repair: Common breakdowns of essential equipment (vehicles, generators, tools, home appliances) that need immediate fixing.
+4. Domestic & Household: Everyday problems that become difficult without online guides, like dealing with a power outage, plumbing issues, or food preservation.
+5. Psychological & Mental Support: Situations causing isolation, anxiety, or panic where a calm, guiding voice could help.
+6. Communication & Social: Scenarios where one needs to de-escalate a conflict, negotiate, or provide clear instructions to others without help.
+7. Knowledge & Education: Scenarios where a parent needs to teach a child, or someone needs to learn a practical skill on the fly without access to books or the web.
+8. Format: Provide the output as a simple, flat list. Each line should be a single, descriptive situation.
+
+Example Format:
+
+a. A person's car has a flat tire on a remote road with no cell service.
+b. A child has a high fever and the nearest clinic is unreachable due to a storm.
+c. The main water pipe in a house has burst and the shut-off valve is stuck.
+d. Someone is feeling an intense panic attack while stuck alone in a collapsed structure.
