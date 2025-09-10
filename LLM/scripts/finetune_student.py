@@ -4,10 +4,9 @@ from transformers import (
     AutoModelForCausalLM,
     AutoTokenizer,
     BitsAndBytesConfig,
-    TrainingArguments,
 )
 from peft import LoraConfig
-from trl import SFTTrainer
+from trl import SFTTrainer, SFTConfig
 import os
 
 # --- Configuration ---
@@ -15,13 +14,14 @@ import os
 student_model_id = "microsoft/Phi-3-mini-4k-instruct"
 
 # 2. The instruction dataset we created in the previous step.
-dataset_file = "teacher_generated.jsonl"
+dataset_file = "/home/dell-pc-03/Offline-Mobile-LLM/LLM/scripts/teacher_generated.jsonl"
 
 # 3. The name for the output directory where our trained model adapters will be saved.
-output_dir = "./phi3-mini-offline-assistant"
+output_dir = "/home/dell-pc-03/Offline-Mobile-LLM/LLM/scripts/phi3-mini-offline-assistant"
 
 # --- 1. Load the Dataset ---
 print(f"Loading dataset from {dataset_file}...")
+print(f"Loading dataset from {dataset_file}")
 dataset = load_dataset("json", data_files=dataset_file, split="train")
 print("Dataset loaded successfully.")
 
@@ -34,17 +34,8 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=False,
 )
 
-# --- 3. Load the Student Model and Tokenizer ---
-print(f"Loading base model: {student_model_id}")
-model = AutoModelForCausalLM.from_pretrained(
-    student_model_id,
-    quantization_config=bnb_config,
-    device_map="auto", # Automatically use GPU if available
-    trust_remote_code=True,
-)
-model.config.use_cache = False
-model.config.pretraining_tp = 1
-
+# --- 3. Load the tokenizer separately (needed for dataset preprocessing) ---
+print(f"Loading tokenizer: {student_model_id}")
 tokenizer = AutoTokenizer.from_pretrained(student_model_id, trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
 tokenizer.padding_side = "right"
@@ -60,31 +51,21 @@ peft_config = LoraConfig(
     target_modules=["qkv_proj", "o_proj", "gate_up_proj", "down_proj"]
 )
 
-# --- 5. Define a Formatting Function ---
-# This function will structure our data into the chat format that Phi-3 expects.
-# It combines the original situation (context) with the user's question (instruction).
-def format_training_example(example):
-    # The 'example' here is a single row from your dataset.
-    # We need to access its columns, which might be nested inside another key.
-    # Let's check the structure of the dataset first.
-    if 'instruction' in example and 'response' in example and 'context' in example:
-        context_text = f"Original Situation: {example['context']}"
-        instruction_text = example['instruction']
-        response_text = example['response']
-        
-        # Combine context and instruction for the user's turn
-        full_instruction = f"{context_text}\n\nQuestion: {instruction_text}"
-        
-        # Format as a list of messages
-        return [
-            {"role": "user", "content": full_instruction},
-            {"role": "assistant", "content": response_text},
+# --- 5. Convert dataset to conversational format ---
+def convert_to_conversational(example):
+    """Convert instruction-response pairs to conversational format"""
+    return {
+        "messages": [
+            {"role": "user", "content": example["instruction"]},
+            {"role": "assistant", "content": example["response"]}
         ]
-    # This is a fallback for datasets that might be loaded differently
-    return [{"role": "user", "content": ""}, {"role": "assistant", "content": ""}]
+    }
 
-# --- 6. Configure Training Arguments ---
-training_arguments = TrainingArguments(
+# Apply conversion to dataset
+formatted_dataset = dataset.map(convert_to_conversational, remove_columns=dataset.column_names)
+
+# --- 6. Configure SFTConfig (replaces TrainingArguments) ---
+training_args = SFTConfig(
     output_dir=output_dir,
     num_train_epochs=1,
     per_device_train_batch_size=2,
@@ -100,27 +81,37 @@ training_arguments = TrainingArguments(
     max_steps=-1,
     warmup_ratio=0.03,
     group_by_length=True,
-    lr_scheduler_type="constant",
+    lr_scheduler_type="cosine",
+    # SFT-specific parameters
+    max_length=2048,
+    packing=False,
+    # Model initialization parameters
+    model_init_kwargs={
+        "quantization_config": bnb_config,
+        "device_map": "auto",
+        "trust_remote_code": True,
+        "use_cache": False,
+    }
 )
 
 # --- 7. Create the Trainer ---
 trainer = SFTTrainer(
-    model=model,
-    train_dataset=dataset,
+    model=student_model_id,  # Pass model as string, not object
+    args=training_args,
+    train_dataset=formatted_dataset,
     peft_config=peft_config,
-    max_seq_length=2048, # Increased to accommodate context + question + answer
-    tokenizer=tokenizer,
-    args=training_arguments,
-    formatting_func=format_training_example, # Use our custom formatting function
+    processing_class=tokenizer,  # Use processing_class instead of tokenizer
 )
 
 # --- 8. Start Training ---
-print("\n--- Starting Model Fine-Tuning ---")
+print("Starting fine-tuning...")
 trainer.train()
 print("--- Fine-Tuning Complete ---")
 
 # --- 9. Save the Final Model Adapters ---
 final_model_path = os.path.join(output_dir, "final_checkpoint")
 trainer.save_model(final_model_path)
-print(f"\nFine-tuned model adapters saved to: {final_model_path}")
-print("Next step: Merge these adapters and convert to GGUF format for mobile.")
+print(f"Fine-tuned model adapters saved to: {final_model_path}")
+
+# Save the tokenizer as well
+trainer.processing_class.save_pretrained(final_model_path)

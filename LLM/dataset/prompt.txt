@@ -1,0 +1,57 @@
+Understand this pattern and text properly
+
+```
+1. Situation 1
+1. <think>
+...
+5. Model Thinks
+... 
+9. </think>
+10. some question1
+11. some question2 
+....
+26. some question[n]
+
+2. Situation 2
+1. <think>
+...
+8. Model Thinks
+... 
+14. </think>
+15. some question1
+16. some question2 
+....
+30. some question[n]
+
+and so on
+```
+
+Patterns:
+1. Each block separated by an empty line is a new situation.
+2. Each sitation block has a global numbering of lines (of model's output) below the sitation line.
+
+We want to parse this text and below are the 
+
+Expected Outcomes:
+0. Replace ** with "" empty string so that the markdown part goes away 
+1. Remove the local numbering of the lines below the situation lines.
+2. Remove all the text and lines in between 2 <think> and </think> including think html tags
+3. Remove lines if they contain phrases in the beginning with "okay,", "here are", "here is", "here's", "these questions"
+3. Renumber the local questions from 1 to n lines
+
+This is the output required:
+```
+1. Situation 1
+1. some question1
+2. some question2 
+....
+n. some question[n]
+
+2. Situation 2
+1. some question1
+2. some question2 
+....
+n. some question[n]
+
+and so on
+```
