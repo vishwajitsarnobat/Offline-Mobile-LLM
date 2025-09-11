@@ -1,6 +1,11 @@
 const { getDefaultConfig } = require('expo/metro-config');
-const { withNativeWind } = require('nativewind/metro');
 
 const config = getDefaultConfig(__dirname);
 
-module.exports = withNativeWind(config, { input: './global.css', inlineRem: 16 });
+// Add gguf files to asset extensions
+config.resolver.assetExts.push('gguf');
+
+// Increase max bundle size for large models
+config.transformer.maxWorkerCount = 1;
+
+module.exports = config;

@@ -3,13 +3,8 @@
   "compilerOptions": {
     "strict": true,
     "baseUrl": ".",
-    "module": "ESNext",
-    "forceConsistentCasingInFileNames": true,
     "paths": {
-      "@/*": ["./*"],
-      "@components/*": ["components/*"],
-      "@lib/*": ["lib/*"],
-      "@app/*": ["app/*"]
+      "@/*": ["*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts", "nativewind-env.d.ts"]
