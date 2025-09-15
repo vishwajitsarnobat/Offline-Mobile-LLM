@@ -2,4 +2,6 @@ LLM/llama.cpp/
 LLM/llama_venv/
 LLM/scripts/compiled-models/
 LLM/scripts/offline-assistant-phi3-mini/
-LLM/scripts/phi3-mini-offline-assistant-merged/
+LLM/scripts/phi3-mini-offline-assistant-merged/ 
+ChatterUI/android/
+ChatterUI/node_modules/
